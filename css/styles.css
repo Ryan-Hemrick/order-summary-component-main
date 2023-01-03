@@ -110,7 +110,7 @@ while maintaining the desired border-radius look */
   margin: 0 auto;
   width: 90%;
 
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 /* Wrapper class for the order item: img, name, pricing, and change button */
@@ -210,6 +210,9 @@ Media Queries
   }
   .order__item__info {
     margin-left: 15px;
+  }
+  .order__blurb {
+    padding-bottom: 25px;
   }
 
   /* Adjust font-sizes for mobile to better match design */
