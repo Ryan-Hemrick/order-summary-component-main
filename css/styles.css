@@ -102,7 +102,7 @@ while maintaining the desired border-radius look */
 
 /* Vertical paddings are different to account for secondary CTA padding */
 .order__summary {
-  padding: 35px 40px 30px 40px;
+  padding: 35px 45px 30px 45px;
   text-align: center;
 }
 
