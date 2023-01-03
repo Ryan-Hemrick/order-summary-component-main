@@ -102,7 +102,7 @@ while maintaining the desired border-radius look */
 
 /* Vertical paddings are different to account for secondary CTA padding */
 .order__summary {
-  padding: 35px 40px 25px 40px;
+  padding: 35px 40px 30px 40px;
   text-align: center;
 }
 
@@ -168,7 +168,7 @@ Button Styles
 
 .cta {
   width: 100%;
-  padding: 13px;
+  padding: 14px;
   border-radius: 10px;
   border: none;  
   font-size: 0.9375rem;
@@ -181,6 +181,8 @@ Button Styles
   background-color: var(--clr-blue-bright);
   color: white;
   margin-bottom: 10px;
+  box-shadow: 0px 20px 30px -20px hsl(223, 47%, 23%);
+  -webkit-box-shadow: 0px 20px 30px -20px hsl(223, 47%, 23%);
 }
 .primary-cta:hover, .primary-cta:focus {
   /* Color was not provided in style guide */
