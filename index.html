@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- Google Fonts: Red Hat Display 500, 700, 900 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Custom stylesheets: reset.css & styles.css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+</head>
+<body>
+
+  <main class="order__wrapper">
+
+    <img src="images/illustration-hero.svg" alt="An illustration of a lady in a green shirt listening to music with headphones on" class="order__banner">
+
+    <section class="order__summary">
+      <h1>Order Summary</h1>
+      <p class="order__blurb">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+
+      <section class="order__item">
+        <div class="order__item__selection">
+          <img src="images/icon-music.svg" alt="Music symbol on a gray background">
+          <div class="order__item__info">
+            <p class="order__item__name">Annual Plan</p>
+            <p class="order__item__cost">$59.99/year</p>
+          </div>
+        </div>
+        <button class="order__item__change">Change</button>
+      </section>
+
+      <button class="cta primary-cta">Proceed to Payment</button>
+      <button class="cta secondary-cta">Cancel Order</button>
+
+    </section>
+
+  </main> 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by Ryan Hemrick.
+  </div>
+</body>
+</html>
